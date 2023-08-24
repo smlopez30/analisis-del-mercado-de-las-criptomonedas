@@ -1,4 +1,4 @@
-[`<p align=center><img src=imagenes/inversion.jpg>``<p>`]
+<p align=center><img src=imagenes/inversion.jpg>``<p>
 
 <h1 align=center>**Analisis de Criptomonedas**</h1>
 
