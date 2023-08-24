@@ -2,14 +2,14 @@
 
 <h1 align=center>**Analisis de Criptomonedas**</h1>
 
- Este repositorio es un proyecto individual cuyo objetivo es el analizis del mercado de las criptomonedas utlizando datos de la API [CoinGecko.](https://www.coingecko.com/es/api/documentation)
+ Este repositorio es un proyecto individual cuyo objetivo es el analisis del mercado de las criptomonedas utlizando datos de la API [CoinGecko.](https://www.coingecko.com/es/api/documentation)
 
 En el jupiter notebook se puden encontrar los analasis y tranformaciones del los datos obtenidos de la API CoinGecko
 
 En primer lugar se seleccionaron las 10 mejores criptomonedas en la APICoinGecko con el parametro {'vs_currency': 'usd', 'order': 'market_cap_desc', 'per_page': 10}.
 Con el cual obtuve las 10 mejores criptomonedas actualmente.
 Luego tome los datos de dichas criptomonedas en el lapso de estos ultimos 10 años, para ello se crearon 3 daaset para el valor del precio , el volumen y la capitalizacion para cada dia de los ultimos 10 años.
-y por ultimo se creo un dataset adicional con la cotizacion en pesos argentinos de la precio de las criptomonedas a lo largo del tiempo para un analicis suplementario.
+y por ultimo se creo un dataset adicional con la cotizacion en pesos argentinos de la precio de las criptomonedas a lo largo del tiempo para un analisis suplementario.
 
 Las 10 Criptomonedas seleccionadas son:
 
@@ -43,7 +43,7 @@ Se realizaron algunas transformaciones a los datasets originales tales como:
 + Se analizaron posibles relaciones entre las criptomonedas seleccionadas con una matriz de correlacion.
 + Se crearon datasets con la informacion de los indicadores y datosx relevantes de cada criptomoneda y de la evolucion del precio, el volumen y la capitalizacion.
 
-Estas tareas se realizaron en una [Jupyter Notebook](https://github.com/smlopez30/analizis-del-mercado-de-las-criptomonedas/blob/main/analisis.ipynb) con VSS Code y se subieron a GitHub. Se utilizaron librerías como Pandas, Numpy, requests, Matplotlib.pyplot, datetime y statsmodels.tsa.seasonal.
+Estas tareas se realizaron en una [Jupyter Notebook](https://github.com/smlopez30/analisis-del-mercado-de-las-criptomonedas/blob/main/analisis.ipynb) con VSS Code y se subieron a GitHub. Se utilizaron librerías como Pandas, Numpy, requests, Matplotlib.pyplot, datetime y statsmodels.tsa.seasonal.
 
 **Recopilación de Datos**
 
